@@ -7,13 +7,43 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view>
-    <image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" mode="scaleToFit"></image>
+  
+  <view class="contentText">
+    <text class="user-motto">{{motto}}</text>
   </view>
 
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="headerView">
+    <view class="headerLine"></view>
+    <text class="headerText">{{userGuide}}</text>
+  </view>
+
+  <text class="underLineText">{{"流程顺序攻略"}}</text>
+
+  <view class="headerView">
+    <view class="headerLine"></view>
+    <text class="headerText">{{map}}</text>
+  </view>
+  <view class="image">
+    <image class="img" src="https://img01.vgtime.com/game/cover/2018/07/24/180724192639628.jpg" mode="scaleToFit"></image>
+  </view>
+
+  <view class="headerView">
+    <view class="headerLine"></view>
+    <text class="headerText">{{mapGuide}}</text>
+  </view>
+
+  <view class="headerView">
+    <view class="headerLine"></view>
+    <text class="headerText">{{collectGuide}}</text>
+  </view>
+
+  <view class="headerView">
+    <view class="headerLine"></view>
+    <text class="headerText">{{dlcGuide}}</text>
+  </view>
+
+  <view class="usermotto" bindtap="timeTap">
     <text class="user-motto">{{time}} </text>
   </view>
-  
+
 </view>

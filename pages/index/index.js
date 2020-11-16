@@ -4,7 +4,12 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '《空洞骑士》最早于 Steam 上推出，并在2018年登陆了 Switch 平台。本作是一款「银河恶魔城」类的平台动作冒险游戏，主角将在巨大的地下王国中探索冒险。凭借着丰富的内容，精妙的关卡设计和接连不断的免费更新，获得了玩家们的好评和喜爱。',
+    userGuide: '新手指南',
+    map: '地图',
+    mapGuide: '地图攻略',
+    dlcGuide: 'DLC攻略',
+    collectGuide: '收集攻略',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
@@ -51,5 +56,13 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+
+  timeTap: function () {
+    console.log("111 time")
+    wx.showToast({
+      title: '已清除',
+      icon: 'success'
+    })
+  },
 })

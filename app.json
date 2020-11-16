@@ -9,6 +9,19 @@
     "navigationBarTitleText": "空洞骑士",
     "navigationBarTextStyle":"black"
   },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "地图",
+      "iconPath": "images/home-off.png",
+      "selectedIconPath": "images/home-on.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "我的",
+      "iconPath": "images/my-off.png",
+      "selectedIconPath": "images/my-on.png"
+    }]
+  },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

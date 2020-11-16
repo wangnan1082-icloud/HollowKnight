@@ -16,6 +16,36 @@
   color: #aaa;
 }
 
-.usermotto {
-  margin-top: 200px;
+.contentText {
+  margin-top: 10rpx;
+  margin-left: 5rpx;
+  margin-right: 5rpx;
+  align-items: left;
+}
+
+.headerView {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  margin-top: 15rpx;
+  margin-left: 15rpx;
+}
+
+.headerLine {
+  width: 10rpx;
+  background-color: green;
+}
+
+.headerText {
+  margin-left: 15rpx;
+}
+
+.underLineText {
+  margin-left: 15rpx;
+  align-items: left;
+  border-bottom: 10rpx solid green;
+}
+.image {
+  margin-top: 15rpx;
+  margin: 20rpx;
 }
