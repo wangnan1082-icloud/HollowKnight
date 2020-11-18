@@ -1,0 +1,11 @@
+/* pages/map/map.wxss */
+.testView {
+  background-color: orange;
+  margin: auto;
+}
+
+.mapImg {
+  height: 6300px;
+  width: 9000px;
+  margin: auto;
+}

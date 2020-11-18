@@ -48,4 +48,12 @@
 .image {
   margin-top: 15rpx;
   margin: 20rpx;
+
+}
+
+.testView {
+  color: orange;
+  margin: auto;
+  width: 600rpx;
+  height: 600rpx;
 }

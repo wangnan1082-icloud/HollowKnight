@@ -17,7 +17,9 @@
     <text class="headerText">{{userGuide}}</text>
   </view>
 
-  <text class="underLineText">{{"流程顺序攻略"}}</text>
+  <text class="underLineText" bindtap="orderTap">{{"流程顺序攻略"}}
+    <navigator url="pages/logs/logs"></navigator>
+  </text>
 
   <view class="headerView">
     <view class="headerLine"></view>

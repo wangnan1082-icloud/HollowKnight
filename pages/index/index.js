@@ -65,4 +65,13 @@ Page({
       icon: 'success'
     })
   },
+
+  orderTap: function () {
+    wx.navigateTo({
+      url: "/pages/logs/logs?key=value&key2=value2",
+      success: function (res) {
+        res.eventChannel.emit('toData', {data: 'aaaData'})
+      }
+    })
+  },
 })

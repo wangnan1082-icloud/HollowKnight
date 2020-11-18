@@ -1,13 +1,37 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/map/map",
+    "pages/boss/boss"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "空洞骑士",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/homeOff.png",
+        "selectedIconPath": "images/homeOn.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "地图",
+        "iconPath": "images/mapOff.png",
+        "selectedIconPath": "images/mapOn.png"
+      },
+      {
+        "pagePath": "pages/boss/boss",
+        "text": "Boss",
+        "iconPath": "images/bossOff.png",
+        "selectedIconPath": "images/bossOn.png"
+      }
+    ]
   },
   "tabBar": {
     "list": [{

@@ -1,0 +1,9 @@
+<!--pages/map/map.wxml-->
+<view class="container">
+<scroll-view scroll-x="true" scroll-y="true" show-scrollbar="true" enhanced="true">
+  <view class="testView">
+  <image class="mapImg" src="https://github.com/wangnan1082-icloud/ImageResources/blob/main/HollowKnightMap.jpeg?raw=true" mode="center"></image>
+  </view>
+</scroll-view>
+</view>
+<!-- <text>pages/map/map.wxml</text> -->
